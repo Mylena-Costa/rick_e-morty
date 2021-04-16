@@ -1,0 +1,123 @@
+@import url('./global.css');
+@import url('./header.css');
+
+
+.back-link {
+  position: absolute;
+  top: 31px;
+  left: 41px;
+  color: #fff;
+}
+
+
+.arrow {
+  position: absolute;
+  top: 50%;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrow-right {
+  right: 1rem;
+}
+
+.arrow-right:hover {
+  animation: move-to-right 0.5s infinite alternate;
+}
+
+@keyframes move-to-right {
+  0% {
+    transform: translateX(0px);
+  }
+
+
+  100% {
+    transform: translateX(5px);
+  }
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-left:hover {
+  animation: move-to-left 0.5s infinite alternate;
+}
+
+
+@keyframes move-to-left {
+  0% {
+    transform: translateX(0px);
+  }
+
+
+  100% {
+    transform: translateX(-5px);
+  }
+}
+
+
+/* Card details */
+
+.card-details {
+  width: 404px;
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-details a {
+  text-align: center;
+  margin-top: 10px;
+  color: var(--black);
+  display: block;
+}
+
+.card-details-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 18px;
+}
+
+.card-details-header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--red);
+}
+
+.card-details-header span {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+
+.card-details .personagem-photo {
+  width: 252px;
+  height: 252px;
+  margin: 37px auto 0 auto;
+}
+
+.card-details .personagem-photo img {
+  max-width: 100%;
+}
+
+.personagem-basic-info {
+  text-align: center;
+  margin-top: 19px;
+}
+
+.personagem-basic-info span:first-of-type{
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+

@@ -1,0 +1,42 @@
+
+.main-header {
+  width: 90%;
+  margin: 2rem auto 0 auto;
+}
+
+.logo {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.search {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+
+.search .search-input,
+.search .search-button,
+.search .search-select{
+  border: 0;
+  padding: 1em;
+}
+
+.search .search-input {
+  width: 100%;
+}
+
+.search .search-select {
+  width: 50%;
+}
+
+.search .search-button {
+  background-color: #2b75bb;
+  color: #fff;
+  cursor: pointer;
+}
+
